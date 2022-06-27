@@ -1,0 +1,34 @@
+body {
+    margin: auto;
+    width: 50%;
+    text-align: center;
+    
+    background-color: rgb(59, 97, 179);
+}
+
+main { background-color: rgb(14, 115, 155);}
+
+#game-zone {
+            margin: auto;
+            width: 70%;
+            background:rgb(14, 115, 155);;
+             display: flex;   
+             color: white;  
+            
+
+}
+
+#game-zone figure{ flex: 1;}
+
+
+#result { 
+    margin:auto;
+    width: 70%;
+    background: rgba( 0,0,150,0.8);
+    color: white;}
+
+#score {
+    margin: auto;
+    width: 70%;
+    border: 1px double black; 
+    background: rgba(162, 255, 41, 0.8);}

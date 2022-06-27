@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css.css">
+    <title>Piedra Papel o Tijera</title>
+</head>
+<body>
+
+    <main>
+        <section id = "game-zone">
+            <figure>
+                <figcaption>Jugador</figcaption>
+                <img id="playerChoice" src="images/rock.png" alt="Eleccion del Jugador">
+            </figure>
+    
+            <figure>
+                <figcaption>PC</figcaption>
+                <img id="computerChoice" src="images/rock.png" alt="Eleccion del PC">
+            </figure>
+            
+            
+            
+        </section>
+    
+        <p id="result"> <strong>Aún no comenzaste a jugar</strong></p>
+        <p id="score">Has ganado <strong>0</strong> veces.
+                        Has perdido <strong>0</strong> veces.
+        </p>
+    
+    
+        <section>
+            <p>Elige una opción:</p>
+            <button data-eleccion="piedra">
+                <img src="images/rock.png" alt="Piedra">
+            </button>
+            <button data-eleccion="papel">
+                <img src="images/paper.png" alt="Papel">
+            </button>
+            <button data-eleccion="tijera">
+                <img src="images/scissors.png" alt="Tijera">
+            </button>
+        </section>
+        
+    
+    
+    </main>
+    
+   
+    <script src="app.js"></script>
+</body>
+</html>
